@@ -1,5 +1,10 @@
 # JsonClusterMemberStore
 
+**⚠ NOTICE ⚠ This repository has been abandoned** -- The maintainer has reached the
+conclusion that the original database abstraction was not appropriate for their
+larger project, and even with the redesigned database abstraction, the benefits
+of getting it adapted to JSON would not be worth the effort.
+
 This library is intended for use in systems where data is stored for exlusive
 use by a member of a larger cluster (such as in the Raft Consensus Algorithm).
 It is used to separate the application from the implementation of how it stores
